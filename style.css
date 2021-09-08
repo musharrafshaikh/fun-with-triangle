@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaisei+Decol:wght@700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    font-family: font-family: 'Kaisei Decol', serif;
+    min-height: 100vh;
+    background:linear-gradient(#24c6dc, #514a9d);
+    background-size: cover;
+    background-position: center;
+    color:#EEEEEE;
+}
+
+
+
+nav{
+    background:#5f0799;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+nav > a{
+    align-self: stretch;
+    transition: all .5s;
+    padding: 0.8rem 0;
+    border: 3px solid transparent;
+    color: #f0ed38;
+}
+nav> a:hover{
+color: rgb(82, 243, 82);
+
+}
+
+h1{
+
+     font-family: 'Kaisei Decol', serif;
+     text-align: center;
+}
+
+
+
+h3{
+
+    font-family: 'Kaisei Decol', serif;
+    text-align: center;
+    padding: 1rem;
+}
+
+
+ul{
+    padding: 1rem;
+    margin: 1rem;
+}
+
+ul > li{
+    padding: 1rem;
+    margin: 1rem;
+    font-family: 'Kaisei Decol', serif;
+    color: #f0ed38;
+    background-color: rgb(227, 245, 68);
+
+
+}
+input[type="number"]{
+    width: 50%;
+    padding: 0.3rem 1rem;
+    outline: none;
+    font-size: 1.2rem;
+    border: 1px solid #000000;
+    border-radius: 20px;
+    margin: 0.5rem auto;
+    
+  }
+
+ label {
+    font-size: 1rem;
+    font-family: 'Kaisei Decol', serif;
+    color:white;
+   text-align: center;
+   
+   
+ }
+
+
+ button{
+   display: block;
+   margin: 0 1rem;
+   padding: 0.5rem 1rem;
+   font-family: "Dancing Script", cursive;
+   font-size: 1rem;
+   border: 2px solid hsla(76, 78%, 55%, 0.9);
+   border-radius: 20px;
+   cursor: pointer;
+   text-align: center;
+   display: flex;
+    
+ }
+
+
+ p{
+    font-size: 1.4rem;
+    color:black;
+    margin:0.5rem;
+    padding:0.3rem 0;
+    width:fit-content;
+    align-self: center;
+ }
+
+ #output {
+    font-size: 1.5rem;
+    margin: 2rem 0;
+    text-align: center;
+color: yellow;
+ }
+
+
+
+
